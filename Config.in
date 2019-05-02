@@ -1,0 +1,12 @@
+
+source "$BR2_EXTERNAL_FastScan_PATH/package/basler-vsrc/Config.in"
+source "$BR2_EXTERNAL_FastScan_PATH/package/libbconadapterzynq/Config.in"
+source "$BR2_EXTERNAL_FastScan_PATH/package/pylonsdk/Config.in"
+source "$BR2_EXTERNAL_FastScan_PATH/package/Grab/Config.in"
+
+source "$BR2_EXTERNAL_FastScan_PATH/package/xilinx_axidma/Config.in"
+
+source "$BR2_EXTERNAL_FastScan_PATH/package/python-pypylon/Config.in"
+source "$BR2_EXTERNAL_FastScan_PATH/package/python-pyusb-fastscan/Config.in"
+source "$BR2_EXTERNAL_FastScan_PATH/package/python-pycrafter4500/Config.in"
+
