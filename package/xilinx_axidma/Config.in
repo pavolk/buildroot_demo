@@ -1,0 +1,4 @@
+config BR2_PACKAGE_XILINX_AXIDMA
+	bool "xilinx_axidma"
+	help
+	 "no help message" 
