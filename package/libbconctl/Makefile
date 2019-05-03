@@ -18,7 +18,7 @@ SHLIB_OBJS   := $(LIB_OBJS:.o=.os)
 LIB_HEADERS  := basler/bconctl.h
 LIB_SOURCES  := $(LIB_OBJS:.o=.c) $(LIB_HEADERS) Makefile setup_gpio setup_leds 50-gpio.rules 50-gpioled.rules
 
-CFLAGS       := $(CFLAGS) -Werror -Wall
+CFLAGS       := $(CFLAGS) -Werror -Wall -I.
 
 .PHONY: all build build_copy_header install install_header \
         check_rootfs install_udev clean help
