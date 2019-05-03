@@ -1,0 +1,1 @@
+ACTION=="add", DEVPATH=="/devices/virtual/misc/basler-trggen", MODE="0666"
