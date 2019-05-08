@@ -8,10 +8,10 @@ MKBOOTIMAGE=${BUILD_DIR}/../../utils/mkbootimage
 
 cp ${BOARD_DIR}/pre-built/system_top.bit ${BINARIES_DIR}/fpga.bit
 cp ${BOARD_DIR}/pre-built/fsbl.elf ${BINARIES_DIR}
-cp ${BOARD_DIR}/pre-built/boot.bif ${BINARIES_DIR}
 cp ${BINARIES_DIR}/u-boot ${BINARIES_DIR}/u-boot.elf
 
 echo "Creating boot.bin..."
+cp ${BOARD_DIR}/boot.bif ${BINARIES_DIR}
 (cd ${BINARIES_DIR}; ${MKBOOTIMAGE} boot.bif boot.bin)
 
 echo "Compiling the boot-script..."

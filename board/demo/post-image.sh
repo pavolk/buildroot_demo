@@ -14,7 +14,7 @@ echo "Creating boot.bin..."
 cp ${BOARD_DIR}/boot.bif ${BINARIES_DIR}
 (cd ${BINARIES_DIR}; ${MKBOOTIMAGE} boot.bif boot.bin)
 
-echo "Creating boot.bin..."
+echo "Creating FIT-image..."
 cp ${BOARD_DIR}/image.its ${BINARIES_DIR}
 (cd ${BINARIES_DIR}; ${MKIMAGE} -f image.its image.ub)
 
