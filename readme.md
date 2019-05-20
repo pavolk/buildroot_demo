@@ -1,6 +1,6 @@
 ## Overview
 
-This document describes how to use this repository to build a minimal Linux system for a Zynq-board (demonstrated with Avnet MicroZed board) with buildroot.
+This document describes how to use this repository to build a minimal Linux system for a Zynq-board (demonstrated with Avnet MicroZed board) with Buildroot and set-up a development environment with Buildroot-plugin for Eclipse.
 
 ## Preparation
 
