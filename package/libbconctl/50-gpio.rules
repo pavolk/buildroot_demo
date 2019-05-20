@@ -1,0 +1,1 @@
+DEVPATH=="/devices/soc0/amba/e000a000.gpio/gpio/gpiochip906", RUN+="/usr/lib/bconctl/setup_gpio"

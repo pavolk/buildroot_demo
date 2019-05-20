@@ -1,0 +1,57 @@
+/*
+ * U-Boot uImage source file with multiple kernels, ramdisks and FDT blobs
+ */
+
+/dts-v1/;
+
+/ {
+    description = "Various kernels, ramdisks and FDT blobs";
+    #address-cells = <1>;
+
+    images {
+        kernel@1 {
+            description = "Kernel";
+            data = /incbin/("./zImage");
+            type = "kernel";
+            arch = "arm";
+            os = "linux";
+            compression = "none";
+            load = <0x8000>;
+            entry = <0x8000>;
+
+        };
+
+        ramdisk@1 {
+            description = "ramdisk";
+            data = /incbin/("./rootfs.cpio.gz");
+            type = "ramdisk";
+            arch = "arm";
+            os = "linux";
+            compression = "gzip";
+            load = <0x00000000>;
+            entry = <0x00000000>;
+
+        };
+
+        fdt@1 {
+            description = "devicetree";
+            data = /incbin/("./devicetree.dtb");
+            type = "flat_dt";
+            arch = "arm";
+            compression = "none";
+
+        };
+
+    };
+
+    configurations {
+        default = "config@1";
+
+        config@1 {
+            description = "custom conf";
+            kernel = "kernel@1";
+            ramdisk = "ramdisk@1";
+            fdt = "fdt@1";
+        };
+    };
+};

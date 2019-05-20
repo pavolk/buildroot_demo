@@ -1,0 +1,1 @@
+export BCON_ADAPTER_I2C_DEVICES="/dev/i2c-0:60"
