@@ -75,4 +75,4 @@ Start eclipse and select the package-directory for the installation of the plugi
 
 Restart eclipse.
 
-**Documentation:** https://github.com/mbats/eclipse-buildroot-bundle/wiki
+Useful documentation on how to use the Eclipse/Buildroot development environment you'll find [here](https://github.com/mbats/eclipse-buildroot-bundle/wiki).
