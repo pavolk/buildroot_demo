@@ -2,9 +2,9 @@
 
 This document describes how to use this repository to build a minimal Linux system for a Zynq-board (demonstrated with Avnet MicroZed board) with Buildroot and set-up a development environment with Buildroot-plugin for Eclipse.
 
-Furthermore it shows how to integrate a third-party package into buildroot [xilinx_axivdma]( https://github.com/pavolk/xilinx_axidma.git).
+Furthermore it shows how to integrate a third-party [package](https://github.com/pavolk/xilinx_axidma.git) into a buildroot-based system.
 
-In the subdirectory [doc](https://github.com/pavolk/buildroot_demo/blob/master/doc/) you'll find my presentation-slides, which you can follow to get started with the repository and/or use it as a base for your system.
+In the subdirectory [doc](https://github.com/pavolk/buildroot_demo/blob/master/doc/) you'll find some slides, that you can follow to get started with the repository and/or use it as a base for your system.
 
 Enjoy!
 
