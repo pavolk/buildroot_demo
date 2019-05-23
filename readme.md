@@ -1,6 +1,14 @@
-## Overview
+## Introduction
 
 This document describes how to use this repository to build a minimal Linux system for a Zynq-board (demonstrated with Avnet MicroZed board) with Buildroot and set-up a development environment with Buildroot-plugin for Eclipse.
+
+Furthermore it shows how to integrate a third-party package into buildroot [xilinx_axivdma]( https://github.com/pavolk/xilinx_axidma.git).
+
+In the subdirectory [doc](https://github.com/pavolk/buildroot_demo/blob/master/doc/) you'll find my presentation-slides, which you can follow to get started with the repository and/or use it as a base for your system.
+
+Enjoy!
+
+PS: Pull requests or a star if you like what you found are welcome.
 
 ## Preparation
 
@@ -37,7 +45,7 @@ sudo dd if=images/sdcard.img of=/dev/mmcblk0
 
 This section describes the setup of the eclipse-based environment to cross-develop and run/debug applications remotely on the target-system using the buildroot-eclipse support/plug-in.
 
-The plug-in is supported by the older version of eclipse (luna), which only runs with java-runtime not newer than java8. An issue with the buildroot's package-repository prevents the regular plug-in installation, so we'll describe, how to overcome this too.
+The plug-in supports an older version of eclipse (luna), which only runs with java-runtime not newer than java-8. An issue with the buildroot's package-repository prevents the regular plug-in installation, so we'll describe, how to overcome this too.
 
 1. Download eclipse-luna
 
