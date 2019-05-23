@@ -30,7 +30,7 @@ umount /dev/mmcblk0p*
 sudo dd if=images/sdcard.img of=/dev/mmcblk0
 ```
 
-**NOTE:** The output device name (of=<device-name>) may vary e.g. /dev/sdc
+**NOTE:** The output device name (of="device name") may vary (e.g. /dev/sdc).
 
 
 ## Setup Eclipse/Buildroot development environment

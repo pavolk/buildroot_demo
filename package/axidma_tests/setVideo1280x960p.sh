@@ -15,17 +15,6 @@ SyncVEnd=964
 
 vtc_offset=$(( 0x43c50000 )) # vtc offset as specified in Vivado address editor
 
-# VDMA related parameters
-# ==
-
-vdma_offset=$(( 0x43020000 )) # VDMA offset as specified in Vivado address editor
-
-channels=3 # 3 for RGB 24 bit, 1 for mono 8 bit
-
-framepointer1=$(( 0x3d000000 )) # frame buffer 1 start address
-framepointer2=$(( 0x3e000000 )) # frame buffer 2 start address
-framepointer3=$(( 0x3f000000 )) # frame buffer 3 start address
-
 # register configuration
 # ==
 

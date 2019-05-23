@@ -79,7 +79,7 @@ int main()
     axidma_stop_transfer(axidma_dev, channel);
 
 free_and_exit:
-	axidma_free (axidma_dev, frame_buf, frame_size);
+	axidma_free(axidma_dev, frame_buf, frame_size);
 exit:
     axidma_destroy(axidma_dev);
 

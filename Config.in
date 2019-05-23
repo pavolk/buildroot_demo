@@ -1,3 +1,4 @@
 
-# source "$BR2_EXTERNAL_demo_PATH/package/hello/Config.in"
+source "$BR2_EXTERNAL_demo_PATH/package/xilinx_axidma/Config.in"
+source "$BR2_EXTERNAL_demo_PATH/package/axidma_tests/Config.in"
 
