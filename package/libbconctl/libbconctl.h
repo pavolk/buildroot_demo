@@ -1,1 +1,0 @@
-void libbconctl_main();

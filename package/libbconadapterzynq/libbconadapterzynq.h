@@ -1,1 +1,0 @@
-void libbconadapterzynq_main();

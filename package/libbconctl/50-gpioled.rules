@@ -1,1 +1,0 @@
-DEVPATH=="/devices/soc0/gpio-leds/leds/led-user[012]", RUN+="/usr/lib/bconctl/setup_leds"

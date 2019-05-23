@@ -1,4 +1,0 @@
-config BR2_PACKAGE_PYLONSDK
-	bool "pylon-sdk"
-	help
-	 "no help message" 

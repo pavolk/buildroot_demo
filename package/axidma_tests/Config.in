@@ -1,0 +1,5 @@
+config BR2_PACKAGE_AXIDMA_TESTS
+	bool "axidma_tests"
+	select BR2_PACKAGE_XILINX_AXIDMA
+	help
+	 "Some tests for the VDMA-access over xilinx_axidma library/module"
