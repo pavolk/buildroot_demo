@@ -53,7 +53,7 @@ The plug-in supports an older version of eclipse (luna), which only runs with ja
 cd buidroot_demo
 mkdir eclipse
 cd eclipse
-wget https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/luna/R/eclipse-cpp-luna-R-linux-gtk-x86_64.tar.gz -O eclipse-luna.tar.gz
+wget https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/luna/SR2/eclipse-cpp-luna-SR2-linux-gtk-x86_64.tar.gz -O eclipse-luna.tar.gz
 tar xzvf eclipse-luna.tar.gz
 ```
 
